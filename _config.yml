@@ -20,7 +20,7 @@ title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "kwontaehoon"
-description              : "태훈 "
+description              : "태훈 blog "
 url                      : "https://kwontaehoon.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
