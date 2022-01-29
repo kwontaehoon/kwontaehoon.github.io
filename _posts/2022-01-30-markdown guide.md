@@ -1,6 +1,6 @@
 ---
-title : post
-layout : Markdown 가이드
+layout : post
+title : Markdown 가이드
 ---
 
 < 특수 문자 >
