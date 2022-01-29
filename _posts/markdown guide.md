@@ -1,3 +1,7 @@
+---
+title : post
+layout : Markdown 가이드
+---
 < Heading >
 
 # Heading 1
