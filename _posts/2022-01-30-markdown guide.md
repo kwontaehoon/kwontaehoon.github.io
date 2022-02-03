@@ -2,6 +2,7 @@
 layout : post
 title : Markdown 가이드
 date : 2022-01-30
+categories : javascript
 ---
 
 < 특수 문자 >
