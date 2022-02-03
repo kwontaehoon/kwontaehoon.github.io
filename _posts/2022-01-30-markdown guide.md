@@ -1,7 +1,7 @@
 ---
 layout : post
 title : Markdown 가이드
-categories : javascript
+categories : Javascript
 date : 2022-01-30
 ---
 
