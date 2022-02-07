@@ -1,6 +1,6 @@
 ---
 layout : post
-title : Markdown 가이드
+title : Markdown 문법 가이드
 categories : Javascript
 date : 2022-01-30
 ---
