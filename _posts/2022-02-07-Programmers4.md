@@ -20,7 +20,7 @@ s는 길이가 1 이상, 100이하인 스트링입니다.
 |"abcde"|"c"|
 |"qwer"|"we"|
 
-## 코드
-### Javascript
+> 코드
+* Javascript
 
 <script src="https://gist.github.com/kwontaehoon/fd3371c0089af30ae1051ef8019dc677.js"></script>

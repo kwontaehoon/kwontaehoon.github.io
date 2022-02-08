@@ -18,11 +18,13 @@ array는 길이 1 이상인 배열입니다.
 
 > 입출력 예<br>
 
-arr &nbsp;&nbsp;&nbsp; divisor &nbsp; return
-[5, 9, 7, 10] &nbsp; 5 &nbsp; [5, 10]
-[2, 36, 1, 3] &nbsp; 1 &nbsp; [1, 2, 3, 36]
-[3,2,6] &nbsp; 10 &nbsp; [-1]
-## 코드
-### Javascript
+|arr|divisor|return|
+|:--:|:--:|:--:|
+|[5, 9, 7, 10]|5|[5, 10]|
+|[2, 36, 1, 3]|1|[1, 2, 3, 36]|
+|[3,2,6]|10|[-1]|
+
+> 코드
+* Javascript
 
 <script src="https://gist.github.com/kwontaehoon/b99c4ed1b90f4ac9bdeeaa14f3e38c6c.js"></script>

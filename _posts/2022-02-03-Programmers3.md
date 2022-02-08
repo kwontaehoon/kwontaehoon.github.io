@@ -14,9 +14,10 @@ date : 2022-02-03
 
 > 입출력 예<br>
 
-left &nbsp; right &nbsp; result<br>
-13 &nbsp; 17 &nbsp; 43<br>
-24 &nbsp; 27 &nbsp;	52<br>
+|left|right|result|
+|:--:|:--:|:--:|
+|13|17|43|
+|24|27|52|
 
-## 코드
-### Javascript
+> 코드
+* Javascript

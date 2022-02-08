@@ -15,11 +15,12 @@ numbers의 모든 수는 0 이상 100 이하입니다.
 
 > 입출력 예<br>
 
-numbers &nbsp;	result<br>
-[2,1,3,4,1] &nbsp; [2,3,4,5,6,7]<br>
-[5,0,2,7] &nbsp; [2,5,7,9,12]<br>
+|numbers|result|
+|:--:|:--:|
+|[2,1,3,4,1]|[2,3,4,5,6,7]|
+|[5,0,2,7]|[2,5,7,9,12]|
 
-## 코드
-### Javascript
+> 코드
+* Javascript
 
 <script src="https://gist.github.com/kwontaehoon/cffb8c68320c909553027977664bf919.js"></script>
