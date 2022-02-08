@@ -21,6 +21,6 @@ numbers의 모든 수는 0 이상 100 이하입니다.
 |[5,0,2,7]|[2,5,7,9,12]|
 
 > 코드
-* Javascript
+### Javascript
 
 <script src="https://gist.github.com/kwontaehoon/cffb8c68320c909553027977664bf919.js"></script>

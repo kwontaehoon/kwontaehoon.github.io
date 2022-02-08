@@ -22,7 +22,7 @@ numbers의 모든 원소는 서로 다릅니다.
 |[5,8,4,0,6,7,9]|6|
 
 > 코드
-* Javascript
+### Javascript
 
 * for문
 <script src="https://gist.github.com/kwontaehoon/11a5b8caee7ffd3e321da1624688612a.js"></script>

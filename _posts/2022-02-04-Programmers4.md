@@ -25,6 +25,6 @@ array는 길이 1 이상인 배열입니다.
 |[3,2,6]|10|[-1]|
 
 > 코드
-* Javascript
+### Javascript
 
 <script src="https://gist.github.com/kwontaehoon/b99c4ed1b90f4ac9bdeeaa14f3e38c6c.js"></script>
