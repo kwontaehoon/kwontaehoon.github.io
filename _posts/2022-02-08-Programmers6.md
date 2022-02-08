@@ -38,3 +38,11 @@ win_nums의 원소들은 정렬되어 있지 않을 수도 있습니다.
 
 > 코드
 ### Javascript
+
+<script src="https://gist.github.com/kwontaehoon/1f8baee06cdf20e151145aa49085d77d.js"></script>
+
+<br>
+
+* 중첩 함수
+
+<script src="https://gist.github.com/kwontaehoon/6f58bc945728df19ffaedeec1c469204.js"></script>
