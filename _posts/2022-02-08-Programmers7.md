@@ -22,3 +22,5 @@ nums의 각 원소는 1 이상 1,000 이하의 자연수이며, 중복된 숫자
 
 > 코드
 ### Javascript
+
+<script src="https://gist.github.com/kwontaehoon/f41c622a91ff32c900df06d26d42c925.js"></script>

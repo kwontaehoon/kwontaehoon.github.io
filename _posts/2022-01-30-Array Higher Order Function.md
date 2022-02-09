@@ -5,7 +5,9 @@ categories : Javascript
 date : 2022-01-30
 ---
 ## 배열 고차 함수
+
 >Array.prototype.sort
+
 1. 오름차순, 내림차순
 
 ```javascript
@@ -21,6 +23,7 @@ console.log(fruits); // ['Orange', 'Banana', 'Apple']
 <br>
 
 2. 유니코드 정렬
+
 ```javascript
 const points = [40, 1, 5, 2, 25, 10];
 points.sort();

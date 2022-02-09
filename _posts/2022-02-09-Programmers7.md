@@ -28,3 +28,8 @@ date : 2022-02-09
 |:--:|:--:|
 |[1,2,3,4,5]|[1]|
 |[1,3,2,4,2]|[1,2,3]|
+
+> 코드
+### Javascript
+
+<script src="https://gist.github.com/kwontaehoon/f41c622a91ff32c900df06d26d42c925.js"></script>
