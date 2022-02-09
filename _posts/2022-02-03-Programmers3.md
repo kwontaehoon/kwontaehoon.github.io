@@ -21,3 +21,8 @@ date : 2022-02-03
 
 > 코드
 ### Javascript
+
+<script src="https://gist.github.com/kwontaehoon/9f2869bb75fedc6a6939f3d2b99243ef.js"></script>
+
+* 참고
+<script src="https://gist.github.com/kwontaehoon/a7209a33b67950188c1fc3969a38ecf7.js"></script>

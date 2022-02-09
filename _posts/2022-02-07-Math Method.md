@@ -62,12 +62,15 @@ Math.sqrt(0); // 0
 > Math.random
 
 ```javascript
-Math.random();
+const random = Math.floor(Math.random()*10);
 
-const random = Math.random(random()*10);
+const arr = [1, 6, 80, 41, 33]
+const random = Math.floor(Math.random()*arr.length);
+console.log(arr[random]); // 배열에서 랜덤한 값 추출
 ```
 * 0에서 1미만의 랜덤한 **실수**를 반환한다.
 * 랜덤한 정수를 구하기 위해서는 Math.floor 메서드와 같이 사용한다.
+* 배열 length를 이용해서 랜덤한 값을 추출할 수도 있다.
 
 > Math.pow
 
