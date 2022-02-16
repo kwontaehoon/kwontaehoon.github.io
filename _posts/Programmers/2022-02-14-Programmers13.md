@@ -52,3 +52,5 @@ Single(S), Double(D), Triple(T)은 점수마다 하나씩 존재한다.
 > 코드
 ### JavaScript
 
+<script src="https://gist.github.com/kwontaehoon/177facfaebc0e1f409dd93cc2d25fadf.js"></script>
+

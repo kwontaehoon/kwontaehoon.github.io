@@ -33,3 +33,13 @@ stages에는 1 이상 N + 1 이하의 자연수가 담겨있다.
 
 > 코드
 ### JavaScript
+
+<script src="https://gist.github.com/kwontaehoon/f6be18f1fba3be4c9a4c6da3b4e7ab0b.js"></script>
+
+* 참고
+
+<script src="https://gist.github.com/kwontaehoon/790fb16aa708196af06b5b6f7fdca95d.js"></script>
+
+<br>
+
+참고를 보고 다시 풀어보았다. Object
