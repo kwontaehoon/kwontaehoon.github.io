@@ -29,4 +29,10 @@ numbers의 원소는 0 이상 1,000 이하입니다.
 
 <script src="https://gist.github.com/kwontaehoon/27aeb85c50c1b7bd62adca431185f01c.js"></script>
 
+* 참고
+
 <br>
+
+> 종합<br>
+
+핵심코드는 sort((a, b) => b + a - (a + b))이다. 처음에는 splice 함수를 이용해서 문자열로 변환 후 각 자릿수를 더하려고했으나 sort 함수를 쓰면 간편하게 나올것같아서 생각을 바꿨다. 문자열에서 숫자의 크기나 최댓값 최솟값을 묻는 문제가 나온다면 sort함수는 유용하게 쓰일것같다.
