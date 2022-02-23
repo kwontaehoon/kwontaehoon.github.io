@@ -60,7 +60,7 @@ record는 다음과 같은 문자열이 담긴 배열이며, 길이는 1 이상 
 > 코드
 ### JavaScript
 
-<script src="https://gist.github.com/kwontaehoon/d4eb4e113f0daba57428e00e25e8437d.js"></script>
+<script src="https://gist.github.com/kwontaehoon/d4eb4e113f0daba57428e00e25e8437d.js"></script><br>
 
 * 참고
 

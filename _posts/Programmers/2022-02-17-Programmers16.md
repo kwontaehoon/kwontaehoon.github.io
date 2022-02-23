@@ -27,7 +27,7 @@ k는 1 이상 number의 자릿수 미만인 자연수입니다.
 > 코드
 ### JavaScript
 
-<script src="https://gist.github.com/kwontaehoon/e065796ccdb6146711915f4833731f83.js"></script>
+<script src="https://gist.github.com/kwontaehoon/e065796ccdb6146711915f4833731f83.js"></script><br>
 
 * 참고
 
