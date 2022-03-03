@@ -173,7 +173,7 @@ str2.replace('world', 'Lee'); // Hello Lee world
 > String.prototype.split
 
 ```javascript
-const str = 'Hello world !'
+const str = 'Hello world !';
 
 str.split(' '); // ["Hello", "world", "!"]
 

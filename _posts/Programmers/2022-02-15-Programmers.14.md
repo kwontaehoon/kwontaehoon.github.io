@@ -31,6 +31,10 @@ numbers의 원소는 0 이상 1,000 이하입니다.
 
 * 참고
 
+<script src="https://gist.github.com/kwontaehoon/fa735fdc7880b939b950801f323d502c.js"></script>
+
+[출처] https://velog.io/@fastpace04/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4JavaScript-%EA%B0%80%EC%9E%A5-%ED%81%B0-%EC%88%98
+
 <br>
 
 > 종합<br>
