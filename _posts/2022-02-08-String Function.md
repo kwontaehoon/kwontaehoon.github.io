@@ -11,7 +11,7 @@ date : 2022-02-08
 const str = 'Hello world';
 
 str.indexOf('o'); // 4
-str.indexOf('l', 2); // 3
+str.indexOf('l', 2); // 3 인덱스 2부터 'l' 검색
 str.indexOf('x'); // -1
 ```
 * 대상 문자열에서 인수로 전달받을 검색하여 첫 번째 인덱스를 반환한다.
