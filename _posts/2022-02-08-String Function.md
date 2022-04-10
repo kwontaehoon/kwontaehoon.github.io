@@ -159,7 +159,7 @@ str.repeat(-1); // Error : Invalid count value
 > String.prototype.replace
 
 ```javascript
-const str = 'Hello world';
+const str = 'Hello world';  
 
 str.replace('world', 'Lee'); // Hello Lee
 
