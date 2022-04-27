@@ -1,6 +1,6 @@
 ---
 layout : post
-title : 나누어 떨어지는 숫자 배열
+title : [3차]파일명 정렬
 categories : Programmers
 date : 2022-04-19
 ---
