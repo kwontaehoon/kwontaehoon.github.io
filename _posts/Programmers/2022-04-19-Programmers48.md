@@ -1,6 +1,6 @@
 ---
 layout : post
-title : [3차]압축
+title : 짝수와 홀수
 categories : Programmers
-date : 2022-04-15
+date : 2022-04-19
 ---

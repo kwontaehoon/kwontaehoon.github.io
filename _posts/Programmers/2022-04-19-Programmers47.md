@@ -1,6 +1,6 @@
 ---
 layout : post
-title : [3차]압축
+title : 평균 구하기
 categories : Programmers
-date : 2022-04-15
+date : 2022-04-19
 ---
