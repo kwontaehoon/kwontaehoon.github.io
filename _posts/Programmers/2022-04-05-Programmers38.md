@@ -44,7 +44,7 @@ words는 끝말잇기에 사용한 단어들이 순서대로 들어있는 배열
 
 |n|words|result|
 |:--:|:--:|:--:|
-|3|["tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"]|	|[3,3]|
+|3|["tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"]|[3,3]|
 
 > 코드
 ### JavaScript
