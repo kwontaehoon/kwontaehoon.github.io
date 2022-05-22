@@ -23,5 +23,4 @@ public class Counting8 {
 			System.out.print("에러");
 }
 	}
-
 }

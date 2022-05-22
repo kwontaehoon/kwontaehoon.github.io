@@ -28,8 +28,9 @@ signs[i] 가 참이면 absolutes[i] 의 실제 정수가 양수임을, 그렇지
 * for문
 <script src="https://gist.github.com/kwontaehoon/cd5d29c8db5677ee9addb6bc95a92ae0.js"></script>
 
-<br>
-
 * reduce문
 <script src="https://gist.github.com/kwontaehoon/5727bb7614b6ac4264d5ea5a21598a1c.js"></script>
+
+* refactorting
+<script src="https://gist.github.com/kwontaehoon/bb98b9c8e806644034c99be0786be3fd.js"></script>
 
