@@ -47,6 +47,7 @@ K는 음식 배달이 가능한 시간을 나타내며, 1 이상 500,000 이하�
 * 참고
 
 <script src="https://gist.github.com/kwontaehoon/5bd3ea02446229013c14801db4302998.js"></script>
+
 [출처]https://bokjiho.medium.com/javascript-algorithm-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EB%B0%B0%EB%8B%AC-lv-2-7e66b05d09a
 <br>
 

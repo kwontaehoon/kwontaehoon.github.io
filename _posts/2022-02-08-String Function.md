@@ -139,6 +139,7 @@ const str = '    Hello world ';
 str.trim(); // Helloworld
 ```
 * 대상 문자열 앞뒤에 공백 문자가 있을 경우 제거한 문자열을 반환한다.
+* ex) "Hello world" 에서는 가운데 공백 제거가 안된다. 
 
 <br>
 
