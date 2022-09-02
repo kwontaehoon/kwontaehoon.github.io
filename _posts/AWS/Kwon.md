@@ -1,8 +1,82 @@
 ---
 layout : post
-title : test
+title : MySQL/GitHub 연결
 categories : AWS
-date : 2022-06-20
+date : 2022-07-23
 ---
 
-## Test
+## EC2 연결
+
+* RDS(Amazon Relational Database Service)는 클라우드에서 간편하게 데이터베이스를 설치, 운영 및 확장할 수 있는 관리형 서비스 모음으로 MySQL, MariaDB, PostgreSQL 등등 주요 엔진 사용이 가능하다.
+
+<br>
+
+> EC2와 MySQL 연동
+
+1. RDS 데이터베이스 생성을 시작한다.
+
+<br>
+
+2. 원하는 엔진과 데이터베이스 이름, 마스터 이름, 비밀번호를 설정한다.
+
+<br>
+
+3. 퍼블릭 환경에서 외부와의 연결을 위해 퍼블릭 엑세스 사용을 예로하고  보안 그룹을 새로 생성한다.
+
+<br>
+
+4. 보안 그룹 설정을 위해 데이터베이스 생성 후 EC2 보안그룹으로 이동해 RDS 인바운드 규칙에 원격으로 접속할
+SSH 보안 그룹 규칙을 추가한다. 유형은 MYSQL/Aurora로 설정한다.
+
+<br>
+
+5. EC2에 접속해서 연결하기 전 MySQL을 설치해준다.
+ - sudo yum update -y
+ // 우선 Amazon Linux AMI는 api를 사용하지않고 yum을 사용하며 최신 버전으로 업데이트를 해준다.
+ - sudo yum localinstall -y https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
+ // 본인의 linux 환경에 맞는 버전을 rpm을 통해 다운로드한다.
+ - sudo yum install -y mysql-community-server
+ // 기본적으로 2개의 에러가 났다.
+ - error 1) GPG KEY error log
+The GPG keys listed for the "MySQL 5.7 Community Server" repository are already installed but they are not correct for this package.
+Check that the correct key URLs are configured for this repository.
+ - sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+ // GPG key를 업데이트 하라는 내용이여서 업데이트를 했더니 간단히 해결되었다.
+ - error 2) Transaction check error
+ // 이 오류는 처음에 mysql과 더불어 php, Apache 서버를 설치한다고 sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2 이런 명령어를 실행했었다. 하지만 /usr/share/mysql에 있는 파일들이 mariadb 설치 파일과 충돌이이 생겨서 에러가 생겼고 아래 명령어로 일일히 패키지들을 전부 지운 후 MySQL을 설치했더니 에러가 해결되었다.
+ - yum erase [package-name]
+ - yum list installed | grep -i mysql
+ - yum list installed | grep -i mariadb
+ // 아래 2개의 명령어는 mysql과 mariadb list를 확인하는 명령어이다.
+ - sudo systemctl start mysqld
+ // sql을 실행한다.
+
+<br>
+
+6. EC2에서 MySQL 접속한다.
+ - mysql -u (마스터 사용자 이름) -p --host (엔드포인트)
+ - 똑같이 데이터베이스에 있는 엔드포인트와 마스터 사용자 이름과 패스워드만 있으면 MySQL Workbench에서도 사용 가능하다. 엔드포인트는 hostname에 들어간다.
+
+ <br>
+
+> EC2와 github 연동
+
+1. git 설치
+ - sudo yum install git
+
+ <br>
+
+2. git clone "Github 주소"
+
+<br>
+
+3. user.name 과 user.password를 입력한다.
+ - gitbash에서 입력했던 정보와 똑같은데 EC2에서 user.password는 github token을 요구한다. 따라서 github에서 token을 만든 후 복사한 토큰을 복사해서 붙여넣는다.
+
+ <br>
+
+4. aws 데이터베이스는 RDS를 사용하기때문에 기존의 workbanch의 데이터베이스를 사용하면안된다. aws의 git을 업데이트할 경우 항상 데이터베이스가 RDS 올바른지 확인해야한다.
+
+<br>
+
+5. git bash 업데이트 순서는 pull -> push 순이다.
