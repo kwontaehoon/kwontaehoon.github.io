@@ -26,3 +26,5 @@ completion의 길이는 participant의 길이보다 1 작습니다.
 
 > 코드
 ### JavaScript
+
+<script src="https://gist.github.com/kwontaehoon/f8a4e3280fc8965e2e937f47011091db.js"></script>

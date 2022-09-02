@@ -4,9 +4,6 @@ title : react-server-db 연동
 categories : Javascript
 date : 2022-06-17
 ---
-## 서론
-
-자바스크립트 환경과 react 환경에서의 db연동하는 방법이 꽤 차이가 났다 react 환경에서 db연동하는 방법을 알아보자.
 
 ## 과정
 
