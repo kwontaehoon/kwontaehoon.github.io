@@ -2,7 +2,3 @@
 main:
   - title: "Category"
     url: /categories/
-  - title: "Programmers"
-    url: /Programmers/
-  - title: "Javascript"
-    url: /Javascript/
