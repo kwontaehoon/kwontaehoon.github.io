@@ -22,4 +22,4 @@ date : 2023-11-30
 > 코드
 ### Javascript
 
-<script src="https://gist.github.com/kwontaehoon/8f521ba93ee70259b7631a2a2502c69a"></script>
+<script src="https://gist.github.com/kwontaehoon/8f521ba93ee70259b7631a2a2502c69a.js"></script>

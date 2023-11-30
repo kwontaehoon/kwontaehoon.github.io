@@ -23,4 +23,4 @@ n은 0 이상 3000이하인 정수입니다.
 
 ### JavaScript
 
-<script src=""></script>
+<script src="https://gist.github.com/kwontaehoon/aeee411bb9e1503b87b46a0dd96cf8fe.js"></script>

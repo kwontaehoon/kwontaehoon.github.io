@@ -1,5 +1,6 @@
-function solution(n) {
-    
+function solution(s) {
+    var answer = s;
+    return Number(answer);
 }
 
-console.log(solution(3));
+console.log(solution("-1234"));
