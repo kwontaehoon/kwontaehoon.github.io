@@ -2,7 +2,7 @@
 layout : post
 title : 짝수와 홀수
 categories : Programmers
-date : 2022-04-19
+date : 2023-11-30
 ---
 > 문제<br>
 
@@ -24,8 +24,4 @@ num은 int 범위의 정수입니다.
 
 ### JavaScript
 
-<script src="https://gist.github.com/kwontaehoon/5df7a650023fe73b045ac029bceed3f4.js"></script>
-
-<br>
-
-> 종합<br>
+<script src="https://gist.github.com/kwontaehoon/3b56f2b7b886e1e9a2cde2db3d6a5199"></script>
