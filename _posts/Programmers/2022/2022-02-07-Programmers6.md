@@ -31,6 +31,6 @@ signs[i] 가 참이면 absolutes[i] 의 실제 정수가 양수임을, 그렇지
 * reduce문
 <script src="https://gist.github.com/kwontaehoon/5727bb7614b6ac4264d5ea5a21598a1c.js"></script>
 
-* Refactorting
+* refactoring
 <script src="https://gist.github.com/kwontaehoon/bb98b9c8e806644034c99be0786be3fd.js"></script>
 

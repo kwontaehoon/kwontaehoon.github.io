@@ -1,6 +1,6 @@
 ---
 layout : post
-title : 정수 제곱근 판별
+title : 두 정수 사이의 합
 categories : Programmers
 date : 2023-12-04
 ---
