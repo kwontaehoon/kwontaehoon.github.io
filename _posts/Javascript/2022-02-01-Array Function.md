@@ -23,7 +23,7 @@ Array.from({ length : 2, 0 : 'a', 1 : 'b' }); // ['a', 'b']
 
 Array.from('Hello'); // ['H'. 'e', 'l', 'l'. 'o']
 
-Array.from({ 1, 2, 3 }, x => x + x; // [2, 4, 6]
+Array.from({ 1, 2, 3 }, x => x + x); // [2, 4, 6]
 ```
 * 유사 배열 객체 또는 이터러블 객체를 인수로 전달받아 배열로 변환하여 반환한다.
 * 두 번째 인수로 전달한 콜백 함수의 반환값으로 구성된 배열을 반환한다.
@@ -175,11 +175,11 @@ console.log(arr); // [1, 2, 3]
 ```javascript
 const arr = [1, 2, 3];
 
-arr.inclueds(2); // true
+arr.includes(2); // true
 
-arr.inclueds(100); // false
+arr.includes(100); // false
 
-arr.inclueds(1, 1); // false
+arr.includes(1, 1); // false
 // 배열에 요소 1이 들어있는지 인덱스 1부터 확인
 ```
 * 배열 내에 특정 요소가 포함되어 있는지 확인하여 true/false를 반환한다.
@@ -192,3 +192,13 @@ arr.inclueds(1, 1); // false
 [1, [2, 3, 4, 5]].flat(); // [1, 2, 3, 4, 5]
 ```
 * 배열 평탄화
+
+<br>
+
+> Array 최솟값 / 최댓값
+
+```javascript
+const arr = [1, 2, 3];
+Math.min(...arr); // 1
+Math.max(...arr); // 3
+```
