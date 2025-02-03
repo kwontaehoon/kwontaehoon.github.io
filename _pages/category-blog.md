@@ -1,5 +1,5 @@
 ---
-title: "blog"
-layout: category
+title: blog
+layout: categories
 permalink: /blog
 ---
