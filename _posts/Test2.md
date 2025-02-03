@@ -1,9 +1,5 @@
 ---
-layout : post
-title : Test2
-categories: blog
-date : 2025-02-03
+title:  "사이드바(SideBar) 카테고리 만들기"
+categories:
+  - blog
 ---
-> 문제<br>
-
-test2
