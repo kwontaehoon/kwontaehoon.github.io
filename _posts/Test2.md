@@ -1,10 +1,10 @@
 ---
 layout : post
-title : [1차] 비밀지도 Test
+title : Test2
 categories:
   - blog
 date : 2025-02-03
 ---
 > 문제<br>
 
-test
+test2
