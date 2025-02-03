@@ -1,5 +1,13 @@
 ---
-title:  "사이드바(SideBar) 카테고리 만들기"
+published: true
+title: "[Blog] About Poetry"
+date: 2022-06-03
+last_modified_at: 2022-06-03T14:02:00
+toc: true
+toc_sticky: true
 categories:
-  - cpp
+  - blog
+tags:
+  - python
+  - poetry
 ---
