@@ -1,6 +1,6 @@
 ---
-title : about
-layout : posts
-permalink : /about/
-author_profile : true
+title: about
+layout: posts
+permalink: /about/
+author_profile: true
 ---
