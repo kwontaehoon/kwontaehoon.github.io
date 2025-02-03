@@ -1,6 +1,6 @@
 ---
 title: blog
-layout: archive
+layout: categories
 permalink: /blog/
 ---
 
