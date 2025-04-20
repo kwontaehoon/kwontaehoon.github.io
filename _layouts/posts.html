@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: archive
 ---
 
@@ -27,4 +27,18 @@ layout: archive
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
-{% endfor %}
+{% endfor %} -->
+---
+layout: default
+---
+
+<article class="page">
+  <header>
+    <h1 class="page__title">{{ page.title | escape }}</h1>
+    <p class="page__meta">{{ page.date | date: "%Y-%m-%d" }}</p>
+  </header>
+
+  <div class="page__content">
+    {{ content }}
+  </div>
+</article>
