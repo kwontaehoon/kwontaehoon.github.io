@@ -1,6 +1,6 @@
 ---
 layout : archive
-title : [1차] 비밀지도
+title : "[1차] 비밀지도"
 categories : Programmers
 date : 2023-12-14
 ---
