@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 카펫
 categories : Programmers
 date : 2022-03-29

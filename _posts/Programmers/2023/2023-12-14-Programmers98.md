@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 두 개 뽑아서 더하기
 categories : Programmers
 date : 2023-12-14

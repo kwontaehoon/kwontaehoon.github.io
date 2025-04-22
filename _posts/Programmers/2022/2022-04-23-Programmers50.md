@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 입국심사
 categories : Programmers
 date : 2022-04-23

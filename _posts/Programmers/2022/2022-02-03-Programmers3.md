@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 약수의 갯수와 덧셈
 categories : Programmers
 date : 2022-02-03

@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 정수 제곱근 판별
 categories : Programmers
 date : 2023-12-04

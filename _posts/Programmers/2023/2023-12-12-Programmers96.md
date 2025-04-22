@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 푸드 파이트 대회
 categories : Programmers
 date : 2023-12-12

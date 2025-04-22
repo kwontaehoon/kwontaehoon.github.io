@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 나머지가 1이 되는 수 찾기
 categories : Programmers
 date : 2023-11-30

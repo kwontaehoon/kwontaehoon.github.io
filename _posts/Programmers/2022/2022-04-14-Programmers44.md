@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 가장 큰 정사각형 찾기
 categories : Programmers
 date : 2022-04-14

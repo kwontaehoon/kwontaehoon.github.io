@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 가장 가까운 같은 글자
 categories : Programmers
 date : 2023-12-12

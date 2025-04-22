@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 다트 게임
 categories : Programmers
 date : 2022-02-11

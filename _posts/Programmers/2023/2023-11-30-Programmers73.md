@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 약수의 합
 categories : Programmers
 date : 2023-11-30

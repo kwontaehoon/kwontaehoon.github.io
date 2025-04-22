@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 제일 작은 수 제거하기
 categories : Programmers
 date : 2022-04-27

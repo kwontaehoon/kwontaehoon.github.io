@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 숫자 문자열과 영단어
 categories : Programmers
 date : 2022-05-06

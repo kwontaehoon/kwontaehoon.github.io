@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 메뉴 리뉴얼
 categories : Programmers
 date : 2022-02-28

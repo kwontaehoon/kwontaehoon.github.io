@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 모의고사
 categories : Programmers
 date : 2022-02-09

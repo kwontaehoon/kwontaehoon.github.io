@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 타겟 넘버
 categories : Programmers
 date : 2022-02-21

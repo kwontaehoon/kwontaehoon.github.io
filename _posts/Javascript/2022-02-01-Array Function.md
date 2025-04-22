@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 배열 함수
 categories : Javascript
 date : 2022-02-01

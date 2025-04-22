@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 콜라 문제
 categories : Programmers
 date : 2023-12-16

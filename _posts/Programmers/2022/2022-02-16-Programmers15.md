@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 기능 개발
 categories : Programmers
 date : 2022-02-16

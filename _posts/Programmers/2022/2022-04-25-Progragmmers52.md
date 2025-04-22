@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 디스크 컨트롤러
 categories : Programmers
 date : 2022-04-25

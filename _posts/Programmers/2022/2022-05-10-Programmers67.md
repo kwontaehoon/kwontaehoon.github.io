@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 핸드폰 번호 가리기
 categories : Programmers
 date : 2022-05-10

@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 삼총사
 categories : Programmers
 date : 2023-12-10

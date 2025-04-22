@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 최소직사각형
 categories : Programmers
 date : 2023-12-12

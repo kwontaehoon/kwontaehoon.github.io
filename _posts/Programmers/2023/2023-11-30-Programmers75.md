@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 문자열을 정수로 바꾸기
 categories : Programmers
 date : 2023-11-30

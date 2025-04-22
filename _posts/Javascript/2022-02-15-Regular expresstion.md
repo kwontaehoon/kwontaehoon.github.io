@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 정규 표현식
 categories : Javascript
 date : 2022-02-15

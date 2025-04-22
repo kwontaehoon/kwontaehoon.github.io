@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : x만큼 간격이 있는 n개의 숫자
 categories : Programmers
 date : 2022-04-29

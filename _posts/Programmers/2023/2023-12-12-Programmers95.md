@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 문자열 내 마음대로 정렬하기
 categories : Programmers
 date : 2023-12-12

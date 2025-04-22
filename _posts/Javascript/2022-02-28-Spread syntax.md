@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 스프레드 문법
 categories : Javascript
 date : 2022-02-28

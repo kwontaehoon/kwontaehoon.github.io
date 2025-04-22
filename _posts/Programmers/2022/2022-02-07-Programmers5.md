@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 가운데 글자 가져오기
 categories : Programmers
 date : 2022-02-07

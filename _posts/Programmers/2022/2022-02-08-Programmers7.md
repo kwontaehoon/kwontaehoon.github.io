@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 로또의 최고 순위와 최저 순위
 categories : Programmers
 date : 2022-02-08

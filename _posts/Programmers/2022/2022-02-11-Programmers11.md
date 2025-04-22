@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 예산
 categories : Programmers
 date : 2022-02-11

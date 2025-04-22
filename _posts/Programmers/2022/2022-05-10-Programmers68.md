@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 부족한 금액 계산하기
 categories : Programmers
 date : 2022-05-10

@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : HTTP 응답 상태 코드
 categories : Javascript
 date : 2022-08-08

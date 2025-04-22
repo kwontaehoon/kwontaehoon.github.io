@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 가장 먼 노드
 categories : Programmers
 date : 2022-04-24

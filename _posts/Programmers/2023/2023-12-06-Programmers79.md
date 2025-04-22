@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 서울에서 김서방 찾기
 categories : Programmers
 date : 2023-12-04

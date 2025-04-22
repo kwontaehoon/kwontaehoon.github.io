@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 땅따먹기
 categories : Programmers
 date : 2022-04-20

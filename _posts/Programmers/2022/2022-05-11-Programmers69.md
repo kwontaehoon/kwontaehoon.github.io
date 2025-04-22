@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 시저 암호
 categories : Programmers
 date : 2022-05-11

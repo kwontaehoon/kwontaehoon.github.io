@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 행렬의 덧셈
 categories : Programmers
 date : 2023-12-09

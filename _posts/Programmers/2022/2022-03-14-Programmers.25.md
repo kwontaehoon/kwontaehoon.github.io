@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 게임 맵 최단거리
 categories : Programmers
 date : 2022-03-14

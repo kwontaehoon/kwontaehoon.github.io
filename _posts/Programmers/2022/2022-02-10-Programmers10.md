@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 실패율
 categories : Programmers
 date : 2022-02-10

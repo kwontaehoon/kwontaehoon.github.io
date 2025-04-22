@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 보석 쇼핑
 categories : Programmers
 date : 2022-05-02

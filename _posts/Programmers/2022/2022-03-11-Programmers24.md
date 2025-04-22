@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 조이스틱
 categories : Programmers
 date : 2022-03-11

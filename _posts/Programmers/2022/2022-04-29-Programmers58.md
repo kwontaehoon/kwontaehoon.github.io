@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 콜라츠 추측
 categories : Programmers
 date : 2022-04-29

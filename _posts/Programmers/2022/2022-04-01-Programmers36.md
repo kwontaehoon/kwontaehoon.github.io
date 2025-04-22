@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 프렌즈블록
 categories : Programmers
 date : 2022-04-01

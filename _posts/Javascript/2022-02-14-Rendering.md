@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 렌더링 과정
 categories : Javascript
 date : 2022-02-14

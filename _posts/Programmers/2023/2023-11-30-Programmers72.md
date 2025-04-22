@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 짝수와 홀수
 categories : Programmers
 date : 2023-11-30

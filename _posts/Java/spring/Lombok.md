@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : lombok
 categories : Javascript
 date : 2022-01-30

@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 음양 더하기
 categories : Programmers
 date : 2022-02-07

@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 크기가 작은 부분 문자열
 categories : Programmers
 date : 2023-12-10

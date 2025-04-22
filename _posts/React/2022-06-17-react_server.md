@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : react-server-db 연동
 categories : Javascript
 date : 2022-06-17

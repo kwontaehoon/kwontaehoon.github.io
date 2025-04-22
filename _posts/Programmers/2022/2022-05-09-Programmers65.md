@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 같은 숫자는 싫어
 categories : Programmers
 date : 2022-05-09

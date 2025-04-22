@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 큰 수 만들기
 categories : Programmers
 date : 2022-02-17

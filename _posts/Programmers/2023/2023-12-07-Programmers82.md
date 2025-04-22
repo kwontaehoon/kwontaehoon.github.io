@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 없는 숫자 더하기
 categories : Programmers
 date : 2023-12-07

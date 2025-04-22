@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 완주하지 못한 선수
 categories : Programmers
 date : 2022-05-12

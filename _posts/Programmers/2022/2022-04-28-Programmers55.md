@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 자릿수 더하기
 categories : Programmers
 date : 2022-04-28

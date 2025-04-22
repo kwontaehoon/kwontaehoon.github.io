@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : 최대공약수와 최소공배수
 categories : Programmers
 date : 2023-12-10

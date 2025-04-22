@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : String 함수
 categories : Javascript
 date : 2022-02-08

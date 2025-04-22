@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : archive
 title : DFS, BFS, 조합과 순열
 categories : Programmers
 date : 2022-05-12
