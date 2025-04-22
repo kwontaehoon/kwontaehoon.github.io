@@ -1,5 +1,10 @@
-
-> JWT Security
+---
+layout : archive
+title : JWT security
+categories : Java
+date : 2024-12-23
+---
+## JWT Security
 - 기본적으로 Basic Authentication 사용
   - Stateless
   - 요청마다 Authorization 헤더로 전송

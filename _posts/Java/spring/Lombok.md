@@ -1,7 +1,7 @@
 ---
 layout : archive
 title : lombok
-categories : Javascript
+categories : Java
 date : 2022-01-30
 ---
 ## Lombok

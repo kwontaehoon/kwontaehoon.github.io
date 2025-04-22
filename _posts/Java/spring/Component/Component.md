@@ -1,3 +1,9 @@
+---
+layout : archive
+title : Component
+categories : Java
+date : 2024-12-23
+---
 ## Compoenent
 
 - 클래스 레벨에서 선언

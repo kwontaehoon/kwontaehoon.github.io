@@ -1,3 +1,9 @@
+---
+layout : archive
+title : Tailwind CSS custom styles
+categories : Java
+date : 2025-03-01
+---
 #### @layer
 - 사용자 정의 CSS 규칙을 추가해야하는 경우 가장 쉬운 방법으로 스타일시트에 사용자 정의 CSS를 추가하는 것으로 이 선언을 사용하여 base/components/utilites를 사용할 수 있다.
 

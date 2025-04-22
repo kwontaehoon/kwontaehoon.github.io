@@ -1,3 +1,9 @@
+---
+layout : archive
+title : DI example1
+categories : Java
+date : 2024-12-23
+---
 #### 의존성 주입 예시 1 (인터페이스의 재사용성)
 
 ```java

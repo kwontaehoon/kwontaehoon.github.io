@@ -1,3 +1,9 @@
+---
+layout : archive
+title : Dependency Injection
+categories : Java
+date : 2024-12-23
+---
 ## 의존성 주입(Dependency Injection: DI)
 
 1. 객체 자체가 코드 상에서 객체 생성에 관여하지 않아도 되기때문에 객체 사이의 의존도 낮춤

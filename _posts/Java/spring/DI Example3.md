@@ -1,3 +1,9 @@
+---
+layout : archive
+title : DI example3
+categories : Java
+date : 2024-12-23
+---
 #### 의존성 주입 예시 3 (약한 / 느슨한 결합)
 
 ```java

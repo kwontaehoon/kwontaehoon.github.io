@@ -1,3 +1,9 @@
+---
+layout : archive
+title : Bean
+categories : Java
+date : 2024-12-23
+---
 ## Bean
 
 - 메서드 레벨에서 선언

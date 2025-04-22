@@ -1,3 +1,9 @@
+---
+layout : archive
+title : DI example4
+categories : Java
+date : 2024-12-23
+---
 #### 의존성 주입 예시 4 (의존성 미주입)
 
 ```java

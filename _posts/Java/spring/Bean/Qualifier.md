@@ -1,3 +1,9 @@
+---
+layout : archive
+title : Qualifier
+categories : Java
+date : 2024-12-23
+---
 ## Qualifier
 
 ```java
