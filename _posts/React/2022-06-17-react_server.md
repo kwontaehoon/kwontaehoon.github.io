@@ -1,7 +1,7 @@
 ---
 layout : archive
 title : react-server-db 연동
-categories : react
+categories : React
 date : 2022-06-17
 ---
 
