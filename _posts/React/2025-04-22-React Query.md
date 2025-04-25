@@ -84,6 +84,21 @@ useQuery({
   refetchOnWindowFocus: false,
 })
 ```
+- Query Invalidation: 쿼리를 stale 상태로 표시하여 useQuery를 백그라운드에서 refetch 실행
+```javascript
+queryClient.invalidateQueries({
+  queryKey: ['todos', { type: 'done' }],
+})
+
+const todoListQuery = useQuery({
+  queryKey: ['todos', { type: 'done' }],
+  queryFn: fetchTodoList,
+})
+```
+> Why? refetch와의 차이점은?
+
+refetch는 즉시 쿼리를 다시 가져오고 useQuery가 선언되어있는 컴포넌트 안에서 실행되지만 invalidation은 stale 상태로 만들어 백그라운드에서 새로고침되게 하며 전역 어디서든 사용가능하다는 차이점이 있습니다.
+
 - initialData: 첫 요청 전에 보여줄 초기 데이터 (캐시로 저장됨)
 ```javascript
 const useNextJSQuery = () => {
@@ -103,12 +118,25 @@ const useNextJSQuery = () => {
 const { data } = useNextJSQuery()
 console.log(data.id) // taehoon
 ```
+- setQueryData: 쿼리 캐시에 저장된 데이터를 직접 수정함으로써 서버 요청없이 클라이언트 상태를 업데이트
+```javascript
+const queryClient = useQueryClient()
+
+const mutation = useMutation({
+  mutationFn: editTodo,
+  onSuccess: (data) => {
+    queryClient.setQueryData(['todo', { id: 5 }], data)
+  },
+})
+```
 - placeholderData: 로딩 상태일 때 UI를 위한 임시 데이터 (캐시에 저장되지 않음)로 새로운 데이터가 올 때 까지 이전 데이터가 보여짐
 ```javascript
 const { data, isFetching, isPlaceholderData } = useQuery({
   queryKey: ['products', page],
   queryFn: () => fetchProducts(page),
   // 해당 설정을 통해 이전 데이터를 유지하면서 데이터 전환 가능
+  // keepPreviousData 또한 placeholderData와 똑같이 동작하지만 의도를 명확하게 표현할 수 있어서 일반적으로 함께 쓰임
+  placeholderData: (previousData: any) => previousData,
   keepPreviousData: true,
 })
 
@@ -118,5 +146,4 @@ return (
     {isFetching && !isPlaceholderData && <Spinner />}
   </>
 )
-
 ```
