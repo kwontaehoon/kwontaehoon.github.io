@@ -1,4 +1,4 @@
-## React Query
+## TanStack Query
 
 ### 도입 배경
 
@@ -58,6 +58,22 @@ const { status, fetchStatus, data: projects } = useQuery({
 enabled: false
 ```
 - select: 응답 데이터를 가공하여 원하는 형태로 반환
+```javascript
+export const useSelectTestQuery = () => {
+    const queryOptions = {
+        queryKey: TEST_QUERY_KEY.test,
+        queryFn: async () => {
+            const { data } = await getTest();
+            return data;
+        },
+        select: (data) => {
+            return data[0]
+        }
+    };
+
+    return useQuery(queryOptions);
+};
+```
 - retry: 요청 실패시 재시도 횟수 (기본값: 3)
 - retryOnMount: 컴포넌트가 마운트될 때 이전에 실패한 쿼리를 다시 시도할지 여부
 - retryDelay: 재시도 간의 지연시간 또는 함수로 설정 가능
@@ -146,4 +162,20 @@ return (
     {isFetching && !isPlaceholderData && <Spinner />}
   </>
 )
+```
+- suspense: 비동기 작업이 끝날 때까지 기다리게 하고, 그동안 보여줄 UI(로딩화면)를 지정
+```javascript
+const { data } = useQuery({
+  queryKey: ['user'],
+  queryFn: fetchUser,
+  suspense: true,
+});
+
+export default function Page() {
+  return (
+    <Suspense fallback={<div>suspense ui</div>}>
+      <Component />
+    </Suspense>
+  );
+}
 ```
