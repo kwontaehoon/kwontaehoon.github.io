@@ -22,6 +22,7 @@ date : 2022-06-17
     "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
   },
   ...
+}
   // 폴더이름은 server server.js로 설정했다.
 ```
 
