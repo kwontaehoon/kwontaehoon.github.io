@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Category"
-    url: /categories/
+    url: /categories
   - title: "About"
-    url: /categories/blog/
+    url: /categories/blog
     
 # sidebar-category:
 #   - title: "카테고리"
