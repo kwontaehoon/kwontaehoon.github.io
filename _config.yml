@@ -106,11 +106,11 @@ author:
   avatar           : # "/assets/images/bio-photo.jpg"
   bio              : "태훈 블로그"
   location         : "South Korea"
-  email            :
+  email            : "gju04195@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "gju04195@naver.com"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "gju04195@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
