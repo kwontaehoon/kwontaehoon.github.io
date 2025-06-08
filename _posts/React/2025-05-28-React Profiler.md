@@ -53,8 +53,8 @@ React 렌더링 과정을 추적할 수 있는 브라우저 확장 툴로 아래
 
 - Flamegraph
 
-<img src="./img/react_profiler_flamegraph.PNG">
+<img src="https://tong-bucket.s3.ap-northeast-2.amazonaws.com/react_profiler_flamegraph.PNG">
 
 - ranked
 
-<img src="./img/react_profiler_ranked.PNG" />
+<img src="https://tong-bucket.s3.ap-northeast-2.amazonaws.com/react_profiler_ranked.PNG" />
