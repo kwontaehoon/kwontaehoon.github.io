@@ -16,7 +16,8 @@ React에서 사용하는 전역 상태 관리로 React 공식 내장 도구로 �
 - 간단한 테마, 로그인 상태, 언어 설정 등 자주 바뀌지 않는 상태 관리할 때 유용
 - 상태가 변경될 때 Provider 하위 전체 리렌더링 발생
 - Provider, Context 생성 필요
-- useContext hook을 통해 하위 컴포넌트에서 Context에 접근 가능
+- 전통적인 방식 - consumer을 통해 하위 컴포넌트에서 Context에 접근 가능
+- 모던 방식 - useContext hook을 통해 하위 컴포넌트에서 Context에 접근 가능
 
 ### Context 객체 생성
 
@@ -121,5 +122,43 @@ const Page = () => {
 
 export default Page
 ```
+
+### consumer와 useConext 차이점은 무엇인가요?
+
+consumer: context 값을 구독하고 값을 사용하는 컴포넌트
+
+```javascript
+import React from 'react'
+import { MyContext } from '@/myContext'
+
+const consumer = () => {
+
+  return (
+    <MyContext.Consumer>
+    {({ value, counter, theme }) => (
+      <div>
+        <p>Value: {value}</p>
+        <p>Counter: {counter}</p>
+        <p>Theme: {theme}</p>
+      </div>
+    )}
+  </MyContext.Consumer>
+  )
+}
+
+export default consumer
+```
+useContext: React 16.8 이상에서 내부적으로 consumer을 사용하는 방식으로 consumer보다 직관적이고 간결합니다.
+
+```javascript
+import { useContext } from 'react';
+import { MyContext } from './MyContext';
+
+function MyComponent() {
+  const value = useContext(MyContext);
+  return <div>Context 값: {value}</div>;
+}
+```
+
 
 [출처] https://ko.legacy.reactjs.org/docs/context.html
