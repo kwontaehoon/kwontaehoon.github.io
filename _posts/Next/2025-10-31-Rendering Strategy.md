@@ -4,6 +4,7 @@ title : 렌더링 / 캐싱 전략
 categories : Next
 date : 2025-10-31
 ---
+
 ## 기술 스택
 
 Next.js v16 (App router) + Tanstack Query
