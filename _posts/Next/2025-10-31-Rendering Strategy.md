@@ -1,6 +1,6 @@
 ---
 layout : archive
-title : 렌더링 / 캐싱 전략
+title : 렌더링 캐싱 전략
 categories : Next
 date : 2025-10-31
 ---
